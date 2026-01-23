@@ -1,0 +1,24 @@
+{
+  "name": "weather-dashboard-devops",
+  "version": "1.0.0",
+  "description": "Advanced Git & DevOps Team Collaboration Assignment - Weather Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve src",
+    "build": "node build.js",
+    "lint": "echo 'Running ESLint checks...' && node lint.js",
+    "test": "echo 'Running tests...' && node test.js",
+    "start": "npx serve src"
+  },
+  "keywords": [
+    "weather",
+    "dashboard",
+    "devops",
+    "git"
+  ],
+  "author": "DevOps Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
