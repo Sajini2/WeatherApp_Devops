@@ -1,0 +1,2 @@
+"# DevOps Configuration" 
+"- Setup CI/CD" 
