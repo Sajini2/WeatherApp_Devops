@@ -1,30 +1,40 @@
-# ☁️ Weather Dashboard
 
-![CI Pipeline](https://github.com/npaberathna/weather_app/workflows/CI%20Pipeline/badge.svg)
-![Deploy](https://github.com/npaberathna/weather_app/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
 
-> **A professional weather dashboard application with real-time weather data and 5-day forecast**
 
 ---
 
-## 👥 Team Information
+## Live Demo
+
+**Live Site:** [https://Sajini2.github.io/WeatherApp_Devops/]
+(https://Sajini2.github.io/WeatherApp_Devops/)
+
+---
+
+
+
+## Team Information 
 
 | Role | Name | Student ID |
 |------|------|------------|
 | **DevOps Engineer** | H.M.B. Janadari | ITBIN-2313-0043 |
 | **Full-Stack Developer** | M.P.G. Sajini Sawindhya Medaela | ITBIN-2313-0064 |
 
----
 
-## 🌐 Live Demo
 
-**🔗 Live Site:** [https://npaberathna.github.io/weather_app/](https://npaberathna.github.io/weather_app/)
+# Weather Dashboard
 
----
+![CI Pipeline](https://github.com/Sajini2/WeatherApp_Devops/workflows/CI%20Pipeline/badge.svg)
+![Deploy](https://github.com/Sajini2/WeatherApp_Devops/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
 
-#  BEGINNERS GUIDE
+> **A professional weather dashboard application with real-time weather data and 5-day forecast**
 
-##  Table of Contents
+
+
+
+
+# BEGINNERS GUIDE
+
+## Table of Contents
 
 1. [What is This Project?](#1-what-is-this-project)
 2. [Download & Run Locally](#2-download--run-locally)
@@ -41,10 +51,10 @@
 # 1. What is This Project?
 
 A **Weather Dashboard** web application that:
-- 🔍 Search weather for any city
-- 🌡️ Shows current temperature
-- 📅 Displays 5-day forecast
-- 💾 Saves recent searches
+- Search weather for any city
+- Shows current temperature
+- Displays 5-day forecast
+- Saves recent searches
 
 ---
 
@@ -62,13 +72,13 @@ Before starting, install these (FREE):
 Open **Terminal** or **Command Prompt** and run:
 
 ```bash
-git clone https://github.com/manojaberathna24/Weather_Dashboard_CI-CD-pipeline-.git
+git clone https://github.com/Sajini2/WeatherApp_Devops.git
 ```
 
 ## Step 3: Go to Project Folder
 
 ```bash
-cd Weather_Dashboard_CI-CD-pipeline-
+cd WeatherApp_Devops
 ```
 
 ## Step 4: Install Dependencies
@@ -87,7 +97,7 @@ npm run dev
 
 Go to: **http://localhost:3000**
 
-✅ **Done!** You should see the Weather Dashboard!
+**Done!** You should see the Weather Dashboard!
 
 ---
 
@@ -101,7 +111,7 @@ Making your website **live on the internet** so anyone can access it!
 ### Step 1: Create GitHub Repository
 1. Go to [github.com/new](https://github.com/new)
 2. Name: `weather-dashboard`
-3. Select: **Public** ✅
+3. Select: **Public**
 4. Click: **Create repository**
 
 ### Step 2: Push Your Code
@@ -125,7 +135,7 @@ git push -u origin main
 
 ### Step 4: Wait 2-3 Minutes
 - Go to **Actions** tab
-- Wait for green checkmark ✅
+- Wait for green checkmark (Success)
 - Your site is LIVE!
 
 ### Step 5: Get Your URL
@@ -164,9 +174,9 @@ You push code → GitHub detects it → Runs tests → Deploys website
 1. Go to your repo
 2. Click **Actions** tab
 3. Look for:
-   - ✅ Green = Success
-   - 🟡 Yellow = Running
-   - ❌ Red = Failed
+   - Green = Success
+   - Yellow = Running
+   - Red = Failed
 
 ---
 
@@ -195,7 +205,7 @@ A team member who can **edit** your repository.
 2. They click **"View invitation"**
 3. They click **"Accept invitation"**
 
-✅ **Done!** They can now contribute!
+**Done!** They can now contribute!
 
 ---
 
@@ -218,7 +228,7 @@ git checkout -b feature/your-name
 ```
 Example:
 ```bash
-git checkout -b feature/sanjani-backend
+git checkout -b feature/sajini-backend
 ```
 
 ### Step 4: Make Changes
@@ -273,7 +283,7 @@ Click **"Compare & pull request"**
 
 ### Step 5: Click "Create pull request"
 
-✅ **Done!** The owner will review and merge your code!
+**Done!** The owner will review and merge your code!
 
 ---
 
@@ -301,7 +311,7 @@ Select the pull request you want to merge
 ### Step 5: (Optional) Delete Branch
 Click **"Delete branch"** to clean up
 
-✅ **Done!** The code is now in main branch!
+**Done!** The code is now in main branch!
 
 ---
 
@@ -342,7 +352,7 @@ main (production - live website)
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 project/
@@ -362,7 +372,7 @@ project/
 
 ---
 
-# ✨ Individual Contributions
+# Individual Contributions
 
 ### H.M.B. Janadari (DevOps Engineer)
 - Repository setup and configuration
@@ -378,7 +388,7 @@ project/
 
 ---
 
-# ❓ Common Problems & Solutions
+# Common Problems & Solutions
 
 | Problem | Solution |
 |---------|----------|
@@ -389,7 +399,7 @@ project/
 
 ---
 
-# 📖 Useful Resources
+# Useful Resources
 
 - [Git Basics](https://learngitbranching.js.org/)
 - [GitHub Actions Docs](https://docs.github.com/en/actions)
@@ -399,12 +409,8 @@ project/
 
 <div align="center">
 
-## 🎉 Weather Dashboard Team
+## Weather Dashboard Team
 
 **Buddhika Janadari** & **Sajini Savindya**
 
 </div>
-
-
-
-"## Design by Sajini" 
