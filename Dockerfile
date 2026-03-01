@@ -1,37 +1,14 @@
-# Stage 1: Build - install dependencies and build app
-FROM node:18-alpine AS builder
-
-# Set working directory
-WORKDIR /app
-
-# Copy package files first (better cache efficiency)
-COPY package*.json ./
-
-# Install dependencies
-RUN npm install
-
-# Copy all source files
-COPY . .
-
-# Build the application
-RUN npm run build
-
-
 # Stage 2: Production - lightweight nginx to serve files
 FROM nginx:alpine
 
-# Create non-root user for security
+# Create non-root user
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
 # Remove default nginx content
 RUN rm -rf /usr/share/nginx/html/*
 
-# IMPORTANT: Change this depending on your framework
-# For React:
-COPY --from=builder /app/build /usr/share/nginx/html
-
-# For Vue/Vite use this instead:
-# COPY --from=builder /app/dist /usr/share/nginx/html
+# Copy source files (no build folder)
+COPY --from=builder /app/src /usr/share/nginx/html
 
 # Change ownership
 RUN chown -R appuser:appgroup /usr/share/nginx/html
