@@ -413,4 +413,33 @@ project/
 
 **Buddhika Janadari** & **Sajini Savindya**
 
+
+
+## 🐳 Docker Setup
+
+### Prerequisites
+- Docker installed: https://www.docker.com/get-started
+- Docker Compose installed
+- 
+### Build and Run
+# Build and start the container
+docker compose up --build
+
+# Visit the app
+http://localhost:8080
+
+# Stop the container
+docker compose down
+
+### Docker Commands
+# Build image only
+docker build -t weather-dashboard 
+
+# Check image size
+docker images
+
+# Check running containers
+docker ps
+
+
 </div>
